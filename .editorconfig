@@ -1,0 +1,27 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.py]
+indent_size = 4
+continuation_indent_size = 8
+combine_as_imports = true
+max_line_length = 79
+multi_line_output = 4
+
+[*.{css,js,json,py,yml,rst}]
+indent_style = space
+
+[*.{js,py}]
+charset = utf-8
+
+[*.{js,json,yml,ts,scss,jsx}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false

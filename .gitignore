@@ -13,6 +13,7 @@ venv.bak/
 *.hold
 logs/
 nohup.out
+output/
 
 # Ignoring migrations for now
 **/migrations/*

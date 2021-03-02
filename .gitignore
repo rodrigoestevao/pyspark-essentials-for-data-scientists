@@ -1,7 +1,6 @@
 # Additional
 
 # Environments
-.env
 .env.test
 .venv
 env/
